@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!doctype html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/45abb32df2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <script src="./javascript/main.js"></script>
+</head>
+<body>
+    <header>
+    <h1>
+     Scarlet Cosmetics
+    </h1>
+    <h2> Bienvenido a nuestra Webpage</h2>
+    </header>
+    <main>
+        <section class="container-main">
+          <h1 class="shadow-pop-tr">Inicio</h1>
+        
+              <div class="row">
+                <div class="col">
+                  <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><img src="./img/serumC.jpg" class="card-img-top" alt="Serum"></div>
+                    <div class="card-body">
+                      <h2>Serum</h2>
+                      <p class="card-text">Descubre el secreto para una piel radiante y saludable con nuestro Serum Facial Revitalizante. Diseñado con una fórmula avanzada y con vitamina C, la clave para una piel luminosa y juvenil fomentando la produccion de colágeno! </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><img src="./img/protectorsolar.jpg" class="card-img-top" alt="Protectores Solares"></div>
+                    <h2>Protectores solares</h2>
+                    <p class="card-text"> Protégete contra los daños del sol con nuestra variedad de Protector Solares de Amplio Espectro SPF 50. Diseñados para ofrecer una protección completa y duradera, mientras es liviana para la piel. Con toque seco! </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header"> <img src="./img/naturalcosmetics.webp" class="card-img-top" alt="ScarletBeauty"></div>
+                  <div class="card-body">
+                    <h2>ScarletBeauty</h2>
+                    <p class="card-text">Sorpréndete con nuestra amplia linea de maquillaje, hipoalergénico y cruelty free. Labiales, sombras, delineadores, iluminadores y mucho más!</p>
+                  </div>
+                </div>
+              </div>
+            </div>    
+        </div>
+    </section>
+
+    <h2><strong>Pongámonos en Contacto</strong> </h2>
+    <p>Completa el siguiente formulario para dejar su opinión sobre nuestros servicios o dejar consultas.</p>
+    <section id="formulario1">
+      <form onsubmit="return validateForm()">
+        <label for="name">Nombre:</label>
+         <input type="text" id="name" name="name" required>
+
+         <label for="surname">Apellido:</label>
+          <input type="text" id="surname" name="surname" required>
+
+        <label for="email">E-mail:</label>
+         <input type="email" id="email" name="email" required>
+
+       <label for="phone">Celular:</label>
+         <input type="text" id="phone" name="phone" required>
+
+      <input type="submit" value="Submit">
+        </p>
+      </form>
+    </section>
+  </section>
+</main>
+
+<footer class="footer-container">
+    <div class="row">
+      <div class="col">
+        <h3><strong>Medios de Pago</strong> </h3>
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-paypal"></i>
+        <i class="fa-solid fa-landmark"></i>
+        <i class="fa-solid fa-money-bill"></i>
+        
+      </div>
+
+      <div class="col">
+        <section class="container-redes">
+          <h3><strong>Redes Sociales</strong></h3>
+          <a href="https://www.instagram.com/lunath_reposteria/"> <i class="fa-brands fa-square-instagram"></i></a>
+          <a href="mailto:nathaliadg9@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://wa.me/+5491158279929"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </section>
+      </div>
+      <div class="col">
+        <h3><strong>Ubicación</strong></h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.479635919547!2d-58.566838860640274!3d-34.64258807305299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e5a1ba2a5b%3A0x6fbde0f35837e81a!2sAlsina%2054%2C%20B1704EVB%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1699302168345!5m2!1ses-419!2sar"
+          width="230" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+  </footer>
+
+</body>
+</html>
